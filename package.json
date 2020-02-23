@@ -1,0 +1,36 @@
+{
+  "name": "neurons",
+  "version": "1.0.0",
+  "description": "Neurons animation",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brewal/neurons.git"
+  },
+  "keywords": [
+    "neurons",
+    "synapses",
+    "wireframe",
+    "svg",
+    "animation",
+    "stroke"
+  ],
+  "author": "Brewal RENAULT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brewal/neurons/issues"
+  },
+  "homepage": "https://github.com/Brewal/neurons#readme",
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.0.16"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
